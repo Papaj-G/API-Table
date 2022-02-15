@@ -1,0 +1,23 @@
+* {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+table {
+	margin: 25px;
+	border-collapse: collapse;
+	text-align: left;
+	padding: 5px;
+	border-radius: 5px;
+	overflow: hidden;
+    min-width: 400px;
+}
+th {
+	background-color: lightgreen;
+	font-size: 2em;
+	padding: 0.2em;
+}
+tr:nth-of-type(even) {
+	background-color: lightgrey;
+}
+tr:last-of-type{
+    border-bottom: 2px solid lightgreen;
+}
